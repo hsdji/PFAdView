@@ -26,28 +26,28 @@
     
     NSMutableArray *array = [[NSMutableArray alloc] init];
     for (int i = 0; i < 2; i ++) {
-//        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0,adsView.mainContainView.frame.size.width, adsView.mainContainView.frame.size.width)];
-//        label.font = [UIFont boldSystemFontOfSize:20.0];
-//        label.textAlignment = NSTextAlignmentCenter;
-//        label.text = [NSString stringWithFormat:@"视图 %d", i+1];
-//        label.textColor = [UIColor redColor];
-//        label.backgroundColor = [UIColor redColor];
-//        label.layer.cornerRadius = adsView.mainContainView.frame.size.width/2;
-//        label.layer.masksToBounds = YES;
-//        [array addObject:label];
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0,adsView.mainContainView.frame.size.width, adsView.mainContainView.frame.size.width)];
+        label.font = [UIFont boldSystemFontOfSize:20.0];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.text = [NSString stringWithFormat:@"视图 %d", i+1];
+        label.textColor = [UIColor redColor];
+        label.backgroundColor = [UIColor redColor];
+        label.layer.cornerRadius = adsView.mainContainView.frame.size.width/2;
+        label.layer.masksToBounds = YES;
+        [array addObject:label];
         
-        UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, adsView.mainContainView.frame.size.width, adsView.mainContainView.frame.size.height)];
-        
-        [UIView animateWithDuration:1 animations:^{
-            view.backgroundColor = [UIColor redColor];
-        } completion:^(BOOL finished) {
-            [UIView animateWithDuration:0.5 animations:^{
-                view.backgroundColor = [UIColor yellowColor];
-            }];
-        }];
-        view.layer.masksToBounds = YES;
-        view.layer.cornerRadius = CGRectGetWidth(view.bounds)/2.0;
-        [array addObject:view];
+//        UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, adsView.mainContainView.frame.size.width, adsView.mainContainView.frame.size.height)];
+//        
+//        [UIView animateWithDuration:1 animations:^{
+//            view.backgroundColor = [UIColor redColor];
+//        } completion:^(BOOL finished) {
+//            [UIView animateWithDuration:0.5 animations:^{
+//                view.backgroundColor = [UIColor yellowColor];
+//            }];
+//        }];
+//        view.layer.masksToBounds = YES;
+//        view.layer.cornerRadius = CGRectGetWidth(view.bounds)/2.0;
+//        [array addObject:view];
     }
     [self.view addSubview:adsView];
     adsView.containerSubViews = array;
