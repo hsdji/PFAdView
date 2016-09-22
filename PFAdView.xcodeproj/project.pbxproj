@@ -14,6 +14,7 @@
 		4B71E6E21D8F973A00B13BCB /* PFAdView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B71E6E01D8F973A00B13BCB /* PFAdView.xcdatamodeld */; };
 		4B71E6E41D8F973A00B13BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B71E6E31D8F973A00B13BCB /* Assets.xcassets */; };
 		4B71E6E71D8F973A00B13BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B71E6E51D8F973A00B13BCB /* LaunchScreen.storyboard */; };
+		4B71E6F01D8F97F700B13BCB /* PFAdsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B71E6EF1D8F97F700B13BCB /* PFAdsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		4B71E6E31D8F973A00B13BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B71E6E61D8F973A00B13BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B71E6E81D8F973A00B13BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B71E6EE1D8F97F700B13BCB /* PFAdsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFAdsView.h; sourceTree = "<group>"; };
+		4B71E6EF1D8F97F700B13BCB /* PFAdsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFAdsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				4B71E6D81D8F973A00B13BCB /* AppDelegate.m */,
 				4B71E6DA1D8F973A00B13BCB /* ViewController.h */,
 				4B71E6DB1D8F973A00B13BCB /* ViewController.m */,
+				4B71E6EE1D8F97F700B13BCB /* PFAdsView.h */,
+				4B71E6EF1D8F97F700B13BCB /* PFAdsView.m */,
 				4B71E6DD1D8F973A00B13BCB /* Main.storyboard */,
 				4B71E6E31D8F973A00B13BCB /* Assets.xcassets */,
 				4B71E6E51D8F973A00B13BCB /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B71E6F01D8F97F700B13BCB /* PFAdsView.m in Sources */,
 				4B71E6DC1D8F973A00B13BCB /* ViewController.m in Sources */,
 				4B71E6D91D8F973A00B13BCB /* AppDelegate.m in Sources */,
 				4B71E6D61D8F973A00B13BCB /* main.m in Sources */,
