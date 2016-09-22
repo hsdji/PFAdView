@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1A0C011D937716004DA0CF /* question in Resources */ = {isa = PBXBuildFile; fileRef = 4B1A0C001D937716004DA0CF /* question */; };
 		4B71E6D61D8F973A00B13BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B71E6D51D8F973A00B13BCB /* main.m */; };
 		4B71E6D91D8F973A00B13BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B71E6D81D8F973A00B13BCB /* AppDelegate.m */; };
 		4B71E6DC1D8F973A00B13BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B71E6DB1D8F973A00B13BCB /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B1A0C001D937716004DA0CF /* question */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = question; sourceTree = "<group>"; };
 		4B71E6D11D8F973A00B13BCB /* PFAdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFAdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B71E6D51D8F973A00B13BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B71E6D71D8F973A00B13BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				4B71E6D71D8F973A00B13BCB /* AppDelegate.h */,
+				4B1A0C001D937716004DA0CF /* question */,
 				4B71E6D81D8F973A00B13BCB /* AppDelegate.m */,
 				4B71E6DA1D8F973A00B13BCB /* ViewController.h */,
 				4B71E6DB1D8F973A00B13BCB /* ViewController.m */,
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1A0C011D937716004DA0CF /* question in Resources */,
 				4B71E6E71D8F973A00B13BCB /* LaunchScreen.storyboard in Resources */,
 				4B71E6E41D8F973A00B13BCB /* Assets.xcassets in Resources */,
 				4B71E6DF1D8F973A00B13BCB /* Main.storyboard in Resources */,
@@ -308,6 +312,7 @@
 				4B71E6ED1D8F973A00B13BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
